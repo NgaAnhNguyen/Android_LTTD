@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   android:background="#EABBCB">
+
+   <TextView
+       android:layout_width="230dp"
+       android:layout_height="30dp"
+       android:layout_marginLeft="190dp"
+       android:textSize="20dp"
+       android:textColor="#345797"
+       android:text="NGUYEN THI ANH NGA" />
+   <TextView
+       android:layout_width="230dp"
+       android:layout_height="30dp"
+       android:layout_marginLeft="190dp"
+       android:layout_marginTop="30dp"
+       android:textSize="20dp"
+       android:textColor="#345797"
+       android:text="MSV: 21115053120227" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="312dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="342dp"
+
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="308dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="261dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="228dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="161dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:backgroundTint="#4B6087"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="292dp"
+        android:layout_height="163dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="429dp"
+        app:srcCompat="@mipmap/user" />
+
+
+</RelativeLayout>
+
